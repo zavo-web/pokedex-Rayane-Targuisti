@@ -1,0 +1,86 @@
+body {
+    font-family: 'Shafarik', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgb(239, 204, 204);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(19, 12, 219, 0.1);
+    width: 100%;
+    height: 20cm;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #f6f604;
+    margin-bottom: -40px;
+  }
+  
+  .pokemon-images {
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-images h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    color: #eb2715;
+  }
+  
+  .pokemon-images a {
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  .pokemon-images img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .pokemon-images img:hover {
+    transform: scale(1.1);
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 180px;
+    border: 2px solid #efff0b;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #search-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #eb2715;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #search-button:hover {
+    background-color: #ccf537;
+  }
+  
+  #pokemon-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
